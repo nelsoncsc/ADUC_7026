@@ -34,7 +34,7 @@ int main()
 {
 	GP4DAT = 0x04000000;		 //enable pin p4.2 as output and turn on the led;
 	delay(400000);
-	GP4DAT = 0x04040000;		 //desliga o led
+	GP4DAT = 0x04040000;		 //turn off the led
 
 	//////////////////////////////////////
 
